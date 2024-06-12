@@ -7,11 +7,11 @@ int palin(string arr,int n)
     int y=n-1;
     for(int i=0;i<z;i++)
     {
-        if(arr[i]!=arr[y])
-            return 0;
+        if(arr[i]==arr[y])
+            return 1;
         y--;
     }
-    return 1;
+    return 0;
 }
 
 int main()
