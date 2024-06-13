@@ -25,4 +25,6 @@ int main()
     else
         cout<<"The entered string is not a palinrome [1=Yes/0=No]: "<<a<<endl;
     
+    cout<<0%1;
+    
 }
